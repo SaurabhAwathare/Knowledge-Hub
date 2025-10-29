@@ -15,16 +15,17 @@
         android:layout_marginTop="20dp"
         android:layout_height="400dp"
         android:layout_gravity="center"
+        android:contentDescription="@string/app_logo_description"
         app:srcCompat="@drawable/knoladge_hub_logo" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:layout_gravity="center"
         android:layout_height="wrap_content"
-        android:text="Knoladge Hub" />
+        android:text="@string/knowledge_hub" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -32,6 +33,7 @@
         android:layout_marginTop="20dp"
         android:layout_gravity="center"
         android:layout_height="50dp"
+        android:contentDescription="@string/next_button_description"
         android:rotation="180"
         app:srcCompat="?attr/homeAsUpIndicator" />
 
